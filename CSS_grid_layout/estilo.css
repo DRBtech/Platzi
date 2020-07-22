@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: [inicio] 50px [linea1] 50px [final];
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    /* grid-template-areas: "header header" "cachau" "cachilupi"; */
+}
+.item {
+    background-color: skyblue;
+    border: 1px solid black;
+}
+.item:nth-of-type(4){
+    background-color: royalblue;
+    overflow: auto;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1 / final;
+}

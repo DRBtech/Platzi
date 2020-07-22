@@ -1,0 +1,194 @@
+body{
+    font-family: 'Source Sans Pro' Arial, sans-serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', Times, serif;
+    font-weight: normal;
+    margin: 0;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 90;
+}
+figure {
+    margin: 0;
+}
+.menu {
+    height: inherit;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    height: inherit;
+}
+.menu ul li {
+    height: inherit;
+}
+.menu .link{
+    text-decoration: none;
+    color: white;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.hero{
+    height: 300;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color: white;
+}
+h1 strong {
+    color: #026fff;
+}
+.hero-image{
+    width: 500px;
+    height: 300px;
+}
+.portfolio{
+    background-color: #fafafa;
+    margin: 0;
+    padding: 20;
+}
+h2{
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro' Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20;
+}
+.portfolio div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project{
+    width: 600;
+    flex-shrink: 0;
+    border: grey 1px solid;
+    border-radius: 10px;
+    margin:  20 auto;
+    margin-bottom: 15;
+    background-color: #f4fbff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project strong{
+    font-family: 'Fjalla One', Times, serif;  
+}
+.project-text{
+    width: 300px;
+    height: 300px;
+    text-align: justify;
+    padding-right: 20px;   
+}
+.project-title{
+    font-size: 30;
+    margin-bottom: 10;
+}
+.project-disponible, .project-date, .project-description{
+    margin-bottom: 10;
+}
+.project-imagewraper{
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    border-radius: 20px;
+    border: solid 1px black;
+    overflow: hidden;
+}
+.project-image{
+    width: 300;
+    height: 300;
+}
+.experience{
+    background-color: #fafafa;
+    padding: 20;
+    padding-top: 0;
+}
+.cursos{
+    width: 600;
+    border: grey 1px solid;
+    border-radius: 10px;
+    margin:  20 auto;
+    margin-bottom: 15;
+    background-color: #f4fbff;
+    padding: 20px;
+}
+.cursos-url{
+    color: #056fff;
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px; 
+}
+.contacto {
+    background-color: #056fff;
+    color: white;
+    height: 150;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20;
+}
+.form-email input{
+    border-color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: solid;
+}
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background-color: transparent;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 10px auto 0;
+}
+.social-link{
+    display: inline-block;
+    width: 50;
+    height: 50;
+    background-size: 50px 50px;
+}
+.social-link.facebook{
+    background-image: url(unnamed.png);
+}
+.social-link.twitter{
+    background-image: url(unnamed.png);
+}
+.social-link.github{
+    background-image: url(unnamed.png);
+}
+.social-link.instagram{
+    background-image: url(unnamed.png);
+}
+.footer{
+    color: white;
+    height: 50;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer img{
+    vertical-align: middle;
+}
+.footer div{
+    padding: 0 25;
+}
